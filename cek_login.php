@@ -2,6 +2,7 @@
 include "koneksi.php";
 $username = $_POST['username'];
 $password = $_POST['password'];
+//cek username
 if (empty($username)){
 echo "<script>alert('Username belum diisi')</script>";
 echo "<meta http-equiv='refresh' content='1 url=login.php'>";
